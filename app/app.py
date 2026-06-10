@@ -50,7 +50,7 @@ def load_model():
 tokenizer, model = load_model()
 
 mapping = pd.read_csv(
-    "models/label_mapping.csv"
+    "label_mapping.csv"
 )
 
 # UI
